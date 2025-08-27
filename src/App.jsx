@@ -4,6 +4,7 @@ import ProductCatalog from './componets/ProductCatalog';
 import ProductDetail from './componets/ProductDetail';
 
 function App() {
+  
   return (
     <Router>
       <Routes>

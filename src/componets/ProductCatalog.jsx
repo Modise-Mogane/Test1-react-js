@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import ProductCard from "./ProductCard";
 
 function ProductCatalog() {
+  
   const [products, setProducts] = useState([]);
   const navigate = useNavigate();
 

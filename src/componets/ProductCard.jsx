@@ -1,6 +1,7 @@
 import React from "react";
 
 function ProductCard({ id, image, title, price, onClick }) {
+    
   return (
     <div
       style={{
