@@ -3,6 +3,16 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  backdrop-filter: blur(8px);
+  border: 2px solid rgb(207, 207, 207);
+  border-radius: 4%;
+  box-shadow:2px 4px 8px rgb(83, 81, 81);
+
+}
+.textfield{
+  backdrop-filter: blur(8px);
+  background-color: #e8d4d4ca;
+
 }
 
 .logo {
@@ -42,4 +52,49 @@
 }
 .video:hover{
     background-color: #888 20px,2px,10px;
+}
+img{
+  backdrop-filter: blur(40px);
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.loader-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(155, 155, 172); 
+  margin: 0 5px;
+  animation: bounce 1s infinite alternate; 
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+.load{
+  animation: bounce 1s infinite alternate; 
+  animation-delay: 0.1s;
+
+}
+.dot-1 {
+  animation-delay: 0.2s;
+}
+.dot-2 {
+  animation-delay: 0.4s;
+}
+.dot-3 {
+  animation-delay: 0.6s;
 }
